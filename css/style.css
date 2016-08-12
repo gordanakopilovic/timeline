@@ -1,0 +1,118 @@
+
+ body{
+ 	 background-color:#232168;
+ 	 background-repeat:repeat;
+ 	 height: 100%;
+     width: 100%;
+     padding-top:150px;
+     margin: 0;
+     max-width: 100%;
+     min-height: 100%;
+     position: relative;
+    
+    
+ }
+ 
+ 
+ .table{
+ 	
+ display: inline-block;
+ 	
+ 
+ }
+.live{
+	padding-top:30px;
+	padding-left:193px;
+    padding-right:193px;
+    padding-bottom:30px;
+   } 
+    
+ @media screen and (max-width: 772px) {
+ 
+ .live{
+  	padding-left:30px;
+    padding-right:30px;
+    }
+} 
+
+
+@media only screen and (min-width: 772px) and (max-width: 1300px) {
+  .live{
+  	padding-left:30px;
+    padding-right:30px;
+    }
+	
+	}  
+    
+
+.box{
+ padding:0 6px 0 6px;
+
+}
+
+ @media screen and (max-width: 772px) {
+ 
+ .box{
+  	padding-bottom:30px;
+    
+    }
+} 
+
+////////////////////////////////////grid-content
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {	width: 100% !important;	}
+#fb-root {	display: none;	}
+
+
+/*.content{
+background-color:#fff;
+padding-bottom:20px;
+padding-top:20px;
+}*/
+
+.hero-feature{
+	padding:0 12px 0 12px;
+}
+
+ @media screen and (max-width: 772px) {
+ 
+ .hero-feature{
+  	padding-bottom:30px;
+    
+    }
+} 
+
+@media only screen and (min-width: 772px) and (max-width: 1100px) {
+  .hero-feature{
+  	padding-bottom:30px;
+    
+    }
+	
+	}  
+
+
+////////////////////////////////////////////////////title-text
+.style{
+padding-left:30px;
+
+}
+
+#title-live {
+    overflow: hidden; /*this is a cheap clearfix*/
+    text-align: center;
+}
+#title-live img, h1 {
+    display: inline-block;
+    vertical-align: middle;
+    color:#fff;
+    text-shadow: 0px 0px 18px rgba(225, 231, 212, 1);
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1200px) {
+ 
+  #title-live h1{
+  	
+  	display:block;
+  }
+   
+  }
